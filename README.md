@@ -2,10 +2,10 @@
 
 The efficient processing of large graphs is challenging. Given the current data availability, real network traces are growing in variety and volume turning imperative the design of solutions and systems based on parallel and distributed technologies. In this sense, high performance methodologies could potentially leverage graph processing community similarly to what they have accomplished in scientific computing. However, despite of high performance computing success in computing-demanding scientific applications, graph analytics suffers from distinct and inherent difficulties given its data-driven nature, e.g, high data-access computing ratio and poor locality of memory access. Furthermore, as one's analysis requires a more complex infrastructure, the development effort for crafting new solutions from scratch turns imperative the adoption of software platforms --- DBMS, frameworks and libraries --- to alleviate the development burden. In this scenario, many platforms data oriented and graph specific have been proposed. We estimate that there are currently more than 180 platforms that can be employed in graph analytic tasks.
 
-|**Platform Reference**                                                                                                                       |**Year**|
+|**Platform Reference**                                                                                                         |**Year**|
 |-----------------------------------------------------------------------------------------------------------------------------------|----|
-|Fbsgraph: Accelerating Asynchronous Graph Processing Via Forward And Backward Sweeping                                             |2018|
-|Graph: Traffic-Aware Graph Processing                                                                                              |2018|
+|[Fbsgraph: Accelerating Asynchronous Graph Processing Via Forward And Backward Sweeping](https://ieeexplore.ieee.org/document/8170287/) |2018|
+|GrapH: Traffic-Aware Graph Processing                                                                                              |2018|
 |Graphd: Distributed Vertex-Centric Graph Processing Beyond The Memory Limit                                                        |2018|
 |Hyve: Hybrid Vertex-Edge Memory Hierarchy For Energy-Efficient Graph Processing                                                    |2018|
 |L-Powergraph: A Lightweight Distributed Graph-Parallel Communication Mechanism                                                     |2018|
@@ -14,6 +14,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Shmemgraph: Efficient And Balanced Graph Processing Using One-Sided Communication                                                  |2018|
 |Turbograph++: A Scalable And Fast Graph Analytics System                                                                           |2018|
 |Wonderland: A Novel Abstraction-Based Out-Of-Core Graph Processing System                                                          |2018|
+|                                                                                                                                   |    |
 |A Distributed Multi-Gpu System For Fast Graph Processing                                                                           |2017|
 |Blockgraphchi: Enabling Block Update In Out-Of-Core Graph Processing                                                               |2017|
 |Cypher-Based Graph Pattern Matching In Gradoop                                                                                     |2017|
@@ -36,6 +37,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Tink, A Temporal Graph Analytics Library For Apache Flink                                                                          |2017|
 |Tux 2 Distributed Graph Computation For Machine Learning                                                                           |2017|
 |Wolfpath: Accelerating Iterative Traversing-Based Graph Processing Algorithms On Gpu                                               |2017|
+|                                                                                                                                   |    |
 |A Distributed Graph Parallel Computing System With Lightweight Communication Overhead                                              |2016|
 |An Edge Set Based Large Scale Graph Processing System                                                                              |2016|
 |Bladyg A Novel Block Centric Framework For The Analysis Of Large Dynamic Graphs                                                    |2016|
@@ -67,6 +69,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Sgraph A Distributed Streaming System For Processing Big Graphs                                                                    |2016|
 |Snap A General Purpose Network Analysis And Graph Mining Library                                                                   |2016|
 |Systemml: Declarative Machine Learning On Spark                                                                                    |2016|
+|                                                                                                                                   |    |
 |Arabesque A System For Distributed Graph Mining                                                                                    |2015|
 |Chaos Scale Out Graph Processing From Secondary Storage                                                                            |2015|
 |Effective Techniques For Message Reduction And Load Balancing In Distributed Graph Computation                                     |2015|
@@ -95,6 +98,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Sync Or Async Time To Fuse For Distributed Graph Parallel Computation                                                              |2015|
 |The Gremlin Graph Traversal Machine And Language                                                                                   |2015|
 |Venus Vertex Centric Streamlined Graph Computation On A Single Pc                                                                  |2015|
+|                                                                                                                                   |    |
 |An Efficient Graph Data Processing System For Large Scale Social Network Service Applications                                      |2014|
 |Blogel A Block Centric Framework For Distributed Computation On Real World Graphs                                                  |2014|
 |Bpp: Large Graph Storage For Efficient Disk-Based Processing                                                                       |2014|
@@ -116,6 +120,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Replication-Based Fault-Tolerance For Large-Scale Graph Processing                                                                 |2014|
 |Scalable Simd-Efficient Graph Processing On Gpus                                                                                   |2014|
 |Seraph: An Efficient, Low-Cost System For Concurrent Graph Processing                                                              |2014|
+|                                                                                                                                   |    |
 |A Lightweight Infrastructure For Graph Analytics                                                                                   |2013|
 |Bc-Bsp: A Bsp-Based Parallel Iterative Processing System For Big Data On Cloud Architecture                                        |2013|
 |From Think Like A Vertex To Think Like A Graph                                                                                     |2013|
@@ -140,6 +145,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Triplebit: A Fast And Compact System For Large Scale Rdf Data                                                                      |2013|
 |Turbograph A Fast Parallel Graph Engine Handling Billion Scale Graphs In A Single Pc                                               |2013|
 |X-Stream: Edge-Centric Graph Processing Using Streaming Partitions                                                                 |2013|
+|                                                                                                                                   |    |
 |A Gpu Implementation Of Generalized Graph Processing Algorithm Gim-V                                                               |2012|
 |Asynchronous Large-Scale Graph Processing Made Easy                                                                                |2012|
 |Giraph Unchained Barrierless Asynchronous Parallel Execution In Pregel Like Graph Processing Systems                               |2012|
@@ -155,6 +161,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Stinger High Performance Data Structure For Streaming Graphs                                                                       |2012|
 |The Stapl Parallel Graph Library                                                                                                   |2012|
 |Trinity: A Distributed Graph Engine On A Memory Cloud                                                                              |2012|
+|                                                                                                                                   |    |
 |A Flexible Open Source Toolbox For Scalable Complex Graph Analysis                                                                 |2011|
 |Ciel: A Universal Execution Engine For Distributed Data-Flow Computing                                                             |2011|
 |Disnet: A Framework For Distributed Graph Computation                                                                              |2011|
@@ -169,6 +176,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Piccolo: Building Fast, Distributed Programs With Partitioned Tables                                                               |2011|
 |Priter: A Distributed Framework For Prioritized Iterative Computations                                                             |2011|
 |The Combinatorial Blas Design Implementation And Applications                                                                      |2011|
+|                                                                                                                                   |    |
 |Graphlab A New Framework For Parallel Machine Learning                                                                             |2010|
 |Haloop: Efficient Iterative Data Processing On Large Clusters                                                                      |2010|
 |Hama An Efficient Matrix Computation With The Mapreduce Framework                                                                  |2010|
@@ -179,10 +187,14 @@ The efficient processing of large graphs is challenging. Given the current data 
 |Pregel A System For Large Scale Graph Processing                                                                                   |2010|
 |Signal-Collect: Graph Algorithms For The (Semantic) Web                                                                            |2010|
 |Twister: A Runtime For Iterative Mapreduce                                                                                         |2010|
+|                                                                                                                                   |    |
 |Pegasus Mining Peta Scale Graphs                                                                                                   |2009|
 |The Stratosphere Platform For Big Data Analytics                                                                                   |2009|
+|                                                                                                                                   |    |
 |Dryad Distributed Data Parallel Programs From Sequential Building Blocks                                                           |2007|
 |Rdf Support In The Virtuoso Dbms                                                                                                   |2007|
 |Software And Algorithms For Graph Queries On Multithreaded Architectures                                                           |2007|
+|                                                                                                                                   |    |
 |The Parallel Bgl: A Generic Library For Distributed Graph Computations                                                             |2005|
+|                                                                                                                                   |    |
 |The Boost Graph Library                                                                                                            |2002|
