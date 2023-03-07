@@ -4,6 +4,7 @@ The efficient processing of large graphs is challenging. Given the current data 
 
 |**Platform Reference**                                                                                                         |**Year**|
 |-----------------------------------------------------------------------------------------------------------------------------------|----|
+|[LUMOS: Dependency-Driven Disk-based Graph Processing](https://www.usenix.org/conference/atc19/presentation/vora) |2019|
 |[Fbsgraph: Accelerating Asynchronous Graph Processing Via Forward And Backward Sweeping](https://ieeexplore.ieee.org/document/8170287/) |2018|
 |[GrapH: Traffic-Aware Graph Processing](https://ieeexplore.ieee.org/document/8263157)                                              |2018|
 |[GraphD: Distributed Vertex-Centric Graph Processing Beyond The Memory Limit](https://ieeexplore.ieee.org/document/8016377)                                                        |2018|
